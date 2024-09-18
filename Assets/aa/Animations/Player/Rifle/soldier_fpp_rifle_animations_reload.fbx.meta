@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 1fbb035743d8154409665580b214023e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 5598205440863147685
+    second: rig_item_rifle|fpp_reload
+  - first:
+      74: -4528934020681875055
+    second: rig_player_fpp|rifle_reload
+  - first:
+      74: -7789837560662664318
+    second: rig_item_rifle@fpp_reload
+  - first:
+      74: -1920036328664193423
+    second: rig_player_fpp@rifle_reload
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig_item_rifle@fpp_reload
+      takeName: rig_item_rifle|fpp_reload
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_player_fpp@rifle_reload
+      takeName: rig_player_fpp|rifle_reload
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0049261083
+        functionName: yesrelode
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9655172
+        functionName: norelod
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: soldier_fpp_rifle_animations_reload(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig_item_rifle
+      parentName: soldier_fpp_rifle_animations_reload(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: item
+      parentName: rig_item_rifle
+      position: {x: 0.16434692, y: -0.28941688, z: -0.26911834}
+      rotation: {x: 0.7071068, y: -0.00000008429372, z: -0.0000000842937, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: reloader
+      parentName: item
+      position: {x: 0.000000048678643, y: 0.1094763, z: 0.22725613}
+      rotation: {x: 0.7071068, y: 0.00000003090862, z: -0.0000001376788, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: reloader_end
+      parentName: reloader
+      position: {x: -0, y: 0.17017531, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: magazine
+      parentName: rig_item_rifle
+      position: {x: 0.16446562, y: -0.44937843, z: -0.38723645}
+      rotation: {x: 0.7071068, y: -0.00000008429372, z: -0.0000000842937, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: magazine_end
+      parentName: magazine
+      position: {x: -0, y: 0.17017531, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig_player_fpp
+      parentName: soldier_fpp_rifle_animations_reload(Clone)
+      position: {x: 0, y: 0.8412762, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperArm.L
+      parentName: rig_player_fpp
+      position: {x: -0.30336216, y: -0.2706188, z: -0.35936356}
+      rotation: {x: 0.23566109, y: -0.6060234, z: 0.70402044, w: -0.28557804}
+      scale: {x: 0.9999999, y: 0.9999994, z: 0.99999994}
+    - name: lowerArm.L
+      parentName: upperArm.L
+      position: {x: 0.000000011175871, y: 0.3050397, z: 0.00000006752089}
+      rotation: {x: -0.005910918, y: -0.012398437, z: 0.022894338, w: 0.99964356}
+      scale: {x: 1, y: 0.9999995, z: 1.0000002}
+    - name: hand.L
+      parentName: lowerArm.L
+      position: {x: 0.00000008195639, y: 0.28666273, z: 0.0000000037252903}
+      rotation: {x: 0.15808353, y: 0.7402971, z: 0.6440592, w: -0.110261835}
+      scale: {x: 0.99999994, y: 0.9999996, z: 1}
+    - name: f_thumb1.L
+      parentName: hand.L
+      position: {x: -0.031618208, y: 0.024393277, z: -0.009295264}
+      rotation: {x: -0.264642, y: -0.27053192, z: 0.6540948, w: 0.6549329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_thumb2.L
+      parentName: f_thumb1.L
+      position: {x: -0.000000022351742, y: 0.033153597, z: 0.000000052154064}
+      rotation: {x: -0.10972945, y: 0.23438889, z: -0.40954286, w: 0.87481195}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: f_thumb3.L
+      parentName: f_thumb2.L
+      position: {x: -0.000000011175871, y: 0.039081458, z: -0.0000000023283064}
+      rotation: {x: -0.00000022823903, y: 0.00000059824146, z: 0.17006008, w: 0.9854337}
+      scale: {x: 0.99999964, y: 0.9999995, z: 0.99999994}
+    - name: f_thumb3.L_end
+      parentName: f_thumb3.L
+      position: {x: -0, y: 0.04730303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: itemSticker.L
+      parentName: hand.L
+      position: {x: -0.042903908, y: 0.066390395, z: -0.034110095}
+      rotation: {x: -0.001211794, y: -0.00000011528036, z: -0.00000009972799, w: 0.9999993}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: itemSticker.L_end
+      parentName: itemSticker.L
+      position: {x: -0, y: 0.020329667, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle1.L
+      parentName: hand.L
+      position: {x: -0.0199692, y: 0.086548276, z: 0.005242091}
+      rotation: {x: -0.09246313, y: 0.00000030355832, z: 0.00000006214463, w: 0.9957161}
+      scale: {x: 1, y: 0.9999996, z: 0.9999996}
+    - name: f_middle2.L
+      parentName: f_middle1.L
+      position: {x: 0.000000010244548, y: 0.048808936, z: -0.000000027939677}
+      rotation: {x: -0.4214041, y: -0.000000240052, z: -0.00000029570043, w: 0.906873}
+      scale: {x: 1, y: 0.9999997, z: 0.9999997}
+    - name: f_middle3.L
+      parentName: f_middle2.L
+      position: {x: -4.656613e-10, y: 0.036298826, z: -0.000000067055225}
+      rotation: {x: -0.09793871, y: 0.00000019827718, z: 0.00000014154301, w: 0.99519247}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: f_middle3.L_end
+      parentName: f_middle3.L
+      position: {x: -0, y: 0.03888226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring1.R
+      parentName: hand.L
+      position: {x: 0.0076747704, y: 0.08305756, z: 0.005213472}
+      rotation: {x: -0.09249903, y: 0.00000023060346, z: 0.000000069693286, w: 0.9957128}
+      scale: {x: 1, y: 0.9999991, z: 0.999999}
+    - name: f_ring2.R
+      parentName: f_ring1.R
+      position: {x: 0.000000042375177, y: 0.046798296, z: 0.000000026077032}
+      rotation: {x: -0.4347279, y: -0.0000001967484, z: -0.000000316129, w: 0.90056187}
+      scale: {x: 1, y: 0.9999997, z: 0.99999964}
+    - name: f_ring3.R
+      parentName: f_ring2.R
+      position: {x: 0.000000044237822, y: 0.03399538, z: 0.000000022351742}
+      rotation: {x: -0.08413159, y: 0.00000021601777, z: 0.00000014066272, w: 0.99645466}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: f_ring3.R_end
+      parentName: f_ring3.R
+      position: {x: -0, y: 0.037133466, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index1.R
+      parentName: hand.L
+      position: {x: -0.046329565, y: 0.08314237, z: 0.005214182}
+      rotation: {x: -0.09998232, y: 0.00000029918775, z: 0.000000062935904, w: 0.9949892}
+      scale: {x: 0.9999995, y: 0.9999998, z: 0.99999994}
+    - name: f_index2.R
+      parentName: f_index1.R
+      position: {x: 0.000000017229468, y: 0.047076557, z: -0.0000000055879354}
+      rotation: {x: -0.09604257, y: -0.00000023204072, z: -0.00000022239189, w: 0.99537724}
+      scale: {x: 1, y: 0.99999934, z: 0.99999946}
+    - name: f_index3.R
+      parentName: f_index2.R
+      position: {x: -0.000000018626451, y: 0.033269376, z: 0.000000022351742}
+      rotation: {x: -0.40788728, y: -0.000000017468057, z: 0.000000104170816, w: 0.9130323}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: f_index3.R_end
+      parentName: f_index3.R
+      position: {x: -0, y: 0.03749646, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_little1.L
+      parentName: hand.L
+      position: {x: 0.0343996, y: 0.08136211, z: 0.005199593}
+      rotation: {x: -0.10712188, y: 0.00000016866686, z: 0.00000006073084, w: 0.99424595}
+      scale: {x: 0.9999999, y: 0.9999992, z: 0.99999946}
+    - name: f_little2.L
+      parentName: f_little1.L
+      position: {x: -0.00000002537854, y: 0.03895252, z: -0.000000029802322}
+      rotation: {x: -0.4306781, y: -0.000000014189004, z: -0.00000030158154, w: 0.90250564}
+      scale: {x: 1, y: 0.99999976, z: 0.99999964}
+    - name: f_little3.L
+      parentName: f_little2.L
+      position: {x: -0.000000026309863, y: 0.028687984, z: -0.000000052154064}
+      rotation: {x: -0.27921194, y: -0.075565964, z: -0.040086813, w: 0.9564118}
+      scale: {x: 1, y: 0.9999997, z: 0.9999994}
+    - name: f_little3.L_end
+      parentName: f_little3.L
+      position: {x: -0, y: 0.0318791, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperArm.R
+      parentName: rig_player_fpp
+      position: {x: 0.30922723, y: 0.21579024, z: -0.12019532}
+      rotation: {x: -0.41949046, y: -0.5784849, z: 0.6474234, w: 0.26500195}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999999}
+    - name: lowerArm.R
+      parentName: upperArm.R
+      position: {x: 0.0000000023283064, y: 0.30503973, z: 0.000000013969839}
+      rotation: {x: 0.10744521, y: 0.12456876, z: -0.14719307, w: 0.9753319}
+      scale: {x: 1, y: 0.99999946, z: 1.0000001}
+    - name: hand.R
+      parentName: lowerArm.R
+      position: {x: -0.0000000037252903, y: 0.28666267, z: 0}
+      rotation: {x: -0.6359417, y: 0.75723886, z: 0.0026509834, w: -0.1488641}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+    - name: f_thumb1.R
+      parentName: hand.R
+      position: {x: 0.03161813, y: 0.024393257, z: -0.009295338}
+      rotation: {x: -0.32273012, y: 0.32852018, z: -0.62697846, w: 0.6283453}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: f_thumb2.R
+      parentName: f_thumb1.R
+      position: {x: -0.0000000037252903, y: 0.033153675, z: 0}
+      rotation: {x: -0.029011453, y: -0.1768326, z: 0.4297323, w: 0.8849965}
+      scale: {x: 0.99999964, y: 0.99999976, z: 0.9999997}
+    - name: f_thumb3.R
+      parentName: f_thumb2.R
+      position: {x: 0.000000014901161, y: 0.039081454, z: 0.000000026077032}
+      rotation: {x: -0.16219229, y: 0.008973355, z: 0.5123218, w: 0.84329087}
+      scale: {x: 0.99999964, y: 1, z: 1}
+    - name: f_thumb3.R_end
+      parentName: f_thumb3.R
+      position: {x: -0, y: 0.04730303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: itemSticker.R
+      parentName: hand.R
+      position: {x: 0.04290388, y: 0.06639041, z: -0.034110118}
+      rotation: {x: -0.001211794, y: 0.000000023865162, z: 0.000000091833584, w: 0.9999993}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: itemSticker.R_end
+      parentName: itemSticker.R
+      position: {x: -0, y: 0.020329667, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle1.R
+      parentName: hand.R
+      position: {x: 0.019969128, y: 0.08654827, z: 0.0052420422}
+      rotation: {x: -0.5058539, y: -0.05768778, z: 0.096105166, w: 0.85530573}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000007}
+    - name: f_middle2.R
+      parentName: f_middle1.R
+      position: {x: 0.0000000064610504, y: 0.048808966, z: 0.000000029802322}
+      rotation: {x: -0.40313867, y: 0.00000033556555, z: 0.0000003237509, w: 0.9151389}
+      scale: {x: 1, y: 0.99999976, z: 0.9999997}
+    - name: f_middle3.R
+      parentName: f_middle2.R
+      position: {x: -0.0000000065774657, y: 0.036298774, z: 0.000000011175871}
+      rotation: {x: -0.70713955, y: 0.000000036859543, z: -0.000000112019464, w: 0.70707405}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: f_middle3.R_end
+      parentName: f_middle3.R
+      position: {x: -0, y: 0.03888226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring1.L
+      parentName: hand.R
+      position: {x: -0.0076748123, y: 0.08305751, z: 0.0052134497}
+      rotation: {x: -0.5058847, y: -0.057684254, z: 0.09610725, w: 0.8552875}
+      scale: {x: 0.99999994, y: 0.99999934, z: 0.9999994}
+    - name: f_ring2.L
+      parentName: f_ring1.L
+      position: {x: 9.895302e-10, y: 0.046798304, z: 0.000000014901161}
+      rotation: {x: -0.4031813, y: 0.0000002675452, z: 0.00000033174018, w: 0.9151201}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999996}
+    - name: f_ring3.L
+      parentName: f_ring2.L
+      position: {x: 0.00000001557055, y: 0.033995375, z: 0.000000022351742}
+      rotation: {x: -0.70712334, y: 0.000000007799771, z: -0.00000012422082, w: 0.7070902}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.000001}
+    - name: f_ring3.L_end
+      parentName: f_ring3.L
+      position: {x: -0, y: 0.037133466, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index1.L
+      parentName: hand.R
+      position: {x: 0.046329502, y: 0.08314237, z: 0.0052141543}
+      rotation: {x: -0.12091372, y: -0.01715576, z: -0.13942367, w: 0.98267317}
+      scale: {x: 0.99999946, y: 0.9999999, z: 0.99999994}
+    - name: f_index2.L
+      parentName: f_index1.L
+      position: {x: -0.000000022351742, y: 0.04707653, z: -0.000000015832484}
+      rotation: {x: -0.18448575, y: 0.00000022536307, z: 0.00000022599976, w: 0.98283523}
+      scale: {x: 1, y: 0.9999996, z: 0.9999997}
+    - name: f_index3.L
+      parentName: f_index2.L
+      position: {x: -0.000000020489097, y: 0.03326936, z: 0.000000017185812}
+      rotation: {x: -0.5823187, y: 0.000000056975413, z: -0.00000009852107, w: 0.81296057}
+      scale: {x: 1, y: 0.99999964, z: 0.99999964}
+    - name: f_index3.L_end
+      parentName: f_index3.L
+      position: {x: -0, y: 0.03749646, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_little1.R
+      parentName: hand.R
+      position: {x: -0.034399662, y: 0.081362106, z: 0.0051995576}
+      rotation: {x: -0.5060353, y: -0.05766727, z: 0.09611745, w: 0.8551983}
+      scale: {x: 0.99999994, y: 0.9999993, z: 0.9999993}
+    - name: f_little2.R
+      parentName: f_little1.R
+      position: {x: -0.000000011117663, y: 0.038952526, z: -0.000000037252903}
+      rotation: {x: -0.43572524, y: 0.00000010101369, z: 0.00000026831356, w: 0.9000797}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: f_little3.R
+      parentName: f_little2.R
+      position: {x: 0.00000003480818, y: 0.028687969, z: 0.000000011175871}
+      rotation: {x: -0.42435235, y: 0.000000053515237, z: -0.00000007545165, w: 0.90549713}
+      scale: {x: 1, y: 0.9999997, z: 0.99999964}
+    - name: f_little3.R_end
+      parentName: f_little3.R
+      position: {x: -0, y: 0.0318791, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_hand.L
+      parentName: rig_player_fpp
+      position: {x: 0.09854007, y: -0.58916485, z: -0.27121267}
+      rotation: {x: 0.8888624, y: 0.4581072, z: 0.0041429005, w: -0.0066654724}
+      scale: {x: 1.0000008, y: 0.99999976, z: 0.99999845}
+    - name: IK_hand.L_end
+      parentName: IK_hand.L
+      position: {x: -0, y: 0.37035316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_elbow.L
+      parentName: rig_player_fpp
+      position: {x: -1.3472235, y: -1.0715511, z: -0.7148602}
+      rotation: {x: 0.49999985, y: 0.50000024, z: 0.5000001, w: 0.49999982}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: IK_elbow.L_end
+      parentName: IK_elbow.L
+      position: {x: -0, y: 0.22987938, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_hand.R
+      parentName: rig_player_fpp
+      position: {x: 0.2006129, y: -0.18253446, z: -0.30368683}
+      rotation: {x: 0.700479, y: -0.058640223, z: 0.70684177, w: -0.079153575}
+      scale: {x: 1.0000005, y: 0.999999, z: 0.9999982}
+    - name: IK_hand.R_end
+      parentName: IK_hand.R
+      position: {x: -0, y: 0.37035316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_elbow.R
+      parentName: rig_player_fpp
+      position: {x: 0.5008273, y: -0.000000027532552, z: 0.39627016}
+      rotation: {x: -0.49999985, y: 0.50000024, z: 0.5000001, w: -0.49999982}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: IK_elbow.R_end
+      parentName: IK_elbow.R
+      position: {x: -0, y: 0.22987938, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
